@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Beautiful RUP ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heart-rain"></div>
+    
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="main-title">
+                <span class="name-1">SAHIL KHAN</span>
+                <span class="heart-icon">💕</span>
+                <span class="name-2">RUP</span>
+            </h1>
+            <p class="subtitle">A Love Story Written in the Stars</p>
+        </div>
+    </header>
+
+    <!-- Opening Message -->
+    <section class="opening-message">
+        <div class="message-container">
+            <p class="romantic-text">My Dearest RUP,</p>
+            <p class="romantic-text">From the moment you entered my life, every day has been a blessing. 
+            Your smile lights up my world, and your presence makes everything perfect.</p>
+            <p class="romantic-text">Today, I want to tell you something special...</p>
+        </div>
+    </section>
+
+    <!-- Image Slideshow Section -->
+    <section class="slideshow-section">
+        <div class="slideshow-container">
+            <div class="slideshow-wrapper">
+                <!-- Slide 1 -->
+                <div class="slide active">
+                    <div class="image-placeholder">
+                        <img src="image1.jpg" alt="Our Beautiful Memory" class="slide-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="placeholder-content" style="display:none;">
+                            <span class="kiss-icon">💋</span>
+                            <p>Image 1</p>
+                        </div>
+                    </div>
+                    <div class="shayari-frame">
+                        <p class="shayari">"तुम्हारी हंसी में मेरी खुशी है,<br>तुम्हारे बिना मेरी जिंदगी अधूरी है।"</p>
+                        <p class="shayari-english">"Your smile is my happiness,<br>Without you, my life is incomplete."</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <div class="image-placeholder">
+                        <img src="image2.jpg" alt="Our Beautiful Memory" class="slide-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="placeholder-content" style="display:none;">
+                            <span class="kiss-icon">💋</span>
+                            <p>Image 2</p>
+                        </div>
+                    </div>
+                    <div class="shayari-frame">
+                        <p class="shayari">"दिल की हर धड़कन तुम्हारा नाम लेती है,<br>हर सपना तुम्हारे साथ गुजरता है।"</p>
+                        <p class="shayari-english">"Every heartbeat whispers your name,<br>Every dream unfolds with you."</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <div class="image-placeholder">
+                        <img src="image3.jpg" alt="Our Beautiful Memory" class="slide-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="placeholder-content" style="display:none;">
+                            <span class="kiss-icon">💋</span>
+                            <p>Image 3</p>
+                        </div>
+                    </div>
+                    <div class="shayari-frame">
+                        <p class="shayari">"तुम मेरे जीवन की सबसे खूबसूरत कहानी हो,<br>हर पन्ने पर तुम्हारा नाम लिखा है।"</p>
+                        <p class="shayari-english">"You are the most beautiful story of my life,<br>Your name is written on every page."</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <div class="image-placeholder">
+                        <img src="image4.jpg" alt="Our Beautiful Memory" class="slide-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="placeholder-content" style="display:none;">
+                            <span class="kiss-icon">💋</span>
+                            <p>Image 4</p>
+                        </div>
+                    </div>
+                    <div class="shayari-frame">
+                        <p class="shayari">"तुम्हारे बिना हर दिन अधूरा लगता है,<br>तुम्हारे साथ हर पल सुनहरा है।"</p>
+                        <p class="shayari-english">"Every day feels incomplete without you,<br>Every moment is golden with you."</p>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="slide">
+                    <div class="image-placeholder">
+                        <img src="image5.jpg" alt="Our Beautiful Memory" class="slide-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="placeholder-content" style="display:none;">
+                            <span class="kiss-icon">💋</span>
+                            <p>Image 5</p>
+                        </div>
+                    </div>
+                    <div class="shayari-frame">
+                        <p class="shayari">"मेरे दिल की रानी, तुम ही हो मेरी जान,<br>तुम्हारे बिना मेरा जीवन व्यर्थ है।"</p>
+                        <p class="shayari-english">"Queen of my heart, you are my life,<br>Without you, my life is meaningless."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button class="nav-arrow prev-arrow" onclick="changeSlide(-1)">❮</button>
+            <button class="nav-arrow next-arrow" onclick="changeSlide(1)">❯</button>
+
+            <!-- Dots Indicator -->
+            <div class="dots-container">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposal Message Section -->
+    <section class="proposal-section">
+        <div class="proposal-container">
+            <div class="proposal-card">
+                <h2 class="proposal-title">Will You Be Mine Forever? 💍</h2>
+                <div class="proposal-message">
+                    <p>My Beautiful RUP,</p>
+                    <p>Every moment with you feels like a dream come true. Your laughter fills my heart with joy, 
+                    and your love completes my soul. I cannot imagine a life without you by my side.</p>
+                    <p>You are my sunshine on cloudy days, my strength when I'm weak, and my everything 
+                    when I thought I had nothing. With you, I've found my home.</p>
+                    <p class="special-message">Today, with all my love and devotion, I want to ask you the most 
+                    important question of my life...</p>
+                    <div class="proposal-question">
+                        <p class="question-text">Will you make me the happiest man alive?</p>
+                        <p class="question-text">Will you be my forever?</p>
+                        <p class="question-text">Will you marry me, RUP? 💕</p>
+                    </div>
+                    <div class="signature">
+                        <p>With all my love,</p>
+                        <p class="signature-name">SAHIL KHAN ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                <span class="name-footer">SAHIL</span> 
+                <span class="heart-animation">💖</span> 
+                <span class="name-footer">RUP</span>
+            </p>
+            <p class="footer-message">Made with Love 💕</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
